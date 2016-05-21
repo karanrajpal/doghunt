@@ -1,0 +1,88 @@
+DogBreed,Purpose,AnnualCost,ChildSuitable,Size,Popularity
+Dandie Dinmont Terrier,terrier,1778,1,small,160
+Pharaoh Hound,hound,1779,2,medium,151
+Greyhound,hound,1690,1,large,140
+Affenpinscher,toy,1605,2,small,139
+Bedlington Terrier,terrier,1636,2,small,134
+Clumber Spaniel,sporting,1808,1,medium,133
+Welsh Springer Spaniel,sporting,1619,1,medium,130
+English Toy Spaniel,toy,1735,2,small,129
+Briard,herding,1761,1,large,125
+Kerry Blue Terrier,terrier,1834,2,medium,124
+Australian Terrier,terrier,1619,2,small,121
+Norfolk Terrier,terrier,1860,2,small,120
+Saluki,hound,2072,1,medium,117
+Pointer,sporting,1968,1,large,115
+Tibetan Spaniel,non-sporting,1772,1,small,114
+Belgian Tervuren,herding,1805,1,large,108
+Borzoi,hound,1781,2,large,102
+Giant Schnauzer,working,2669,2,large,95
+Gordon Setter,sporting,1766,1,large,94
+Basenji,hound,1627,2,medium,93
+Flat-Coated Retriever,sporting,1774,1,medium,90
+Afghan Hound,hound,2020,1,large,88
+English Setter,sporting,1756,1,large,87
+Tibetan Terrier,non-sporting,1652,2,small,86
+Old English Sheepdog,herding,2021,1,medium,84
+Bouvier des Flandres,herding,1834,1,large,83
+Border Terrier,terrier,1617,1,small,80
+Irish Wolfhound,hound,2656,1,large,79
+Brussels Griffon,toy,1629,3,small,77
+Staffordshire Bull Terrier,terrier,1797,1,medium,76
+Dalmatian,non-sporting,1765,1,medium,73
+Irish Setter,sporting,1747,1,large,70
+Samoyed,working,2038,1,medium,69
+Chow Chow,non-sporting,1764,2,medium,68
+Italian Greyhound,toy,1643,3,small,65
+Pekingese,toy,1779,2,small,64
+English Cocker Spaniel,sporting,1629,1,medium,63
+Lhasa Apso,non-sporting,1583,1,small,62
+Australian Cattle Dog,herding,1748,3,medium,60
+Cairn Terrier,terrier,1589,1,small,59
+Alaskan Malamute,working,2061,2,large,58
+Whippet,hound,1630,2,medium,57
+Scottish Terrier,terrier,1639,2,small,54
+Bull Terrier,terrier,1811,2,medium,51
+Saint Bernard,working,2574,1,large,49
+Bloodhound,hound,2048,2,large,48
+Akita,working,2066,3,large,47
+Chesapeake Bay Retriever,sporting,1761,1,large,46
+Border Collie,herding,1609,3,medium,45
+Rhodesian Ridgeback,hound,1816,2,large,44
+Newfoundland,working,2076,1,large,43
+Basset Hound,hound,1603,1,small,41
+Bullmastiff,working,1841,1,large,40
+Bichon Frise,non-sporting,1616,1,small,39
+Papillon,toy,1615,2,small,38
+West Highland White Terrier,terrier,1601,1,small,35
+Bernese Mountain Dog,working,2129,1,large,34
+Brittany,sporting,1748,2,medium,30
+English Springer Spaniel,sporting,1750,1,medium,29
+Mastiff,working,2089,1,large,28
+Cocker Spaniel,sporting,1946,1,small,27
+Pug,toy,1684,1,medium,26
+Pembroke Welsh Corgi,herding,1957,1,small,25
+Australian Shepherd,herding,1747,2,medium,24
+Maltese,toy,1558,3,small,23
+Boston Terrier,non-sporting,1625,1,medium,22
+Cavalier King Charles Spaniel,toy,1651,1,small,21
+Shetland Sheepdog,herding,1676,1,small,20
+Great Dane,working,2107,1,large,19
+French Bulldog,non-sporting,1918,1,medium,18
+Pomeranian,toy,1633,2,small,17
+Siberian Husky,working,1753,1,medium,16
+German Shorthaired Pointer,sporting,2255,1,large,15
+Chihuahua,toy,1591,3,small,14
+Doberman Pinscher,working,1781,2,large,13
+Miniature Schnauzer,terrier,1701,2,small,12
+Shih Tzu,toy,1602,1,small,11
+Rottweiler,working,2073,2,large,10
+Dachshund,hound,1592,3,small,9
+Poodle,non-sporting,1777,2,medium,8
+Boxer,working,1787,1,medium,7
+Bulldog,non-sporting,2143,2,medium,6
+Yorkshire Terrier,toy,1643,3,small,5
+Golden Retriever,sporting,1781,1,medium,4
+Beagle,hound,1583,1,small,3
+German Shepherd,herding,1790,2,large,2
+Labrador Retriever,sporting,1769,1,medium,1
