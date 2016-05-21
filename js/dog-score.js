@@ -1,3 +1,10 @@
+/**
+Assumptions made:
+
+1. Purpose passes the dog type as input ex: terrier, hound etc.
+2. Income - <60k passes -1 as input. >60k passes any value greater than 0 as input.
+**/
+
 var dogTypes = ["terrier", "hound", "sporting", "herding", "working", "non-sporting", "toy"];
 var dogScore = [];
 var dogData = [];
