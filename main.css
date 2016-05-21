@@ -1,1 +1,4 @@
-index.css
+svg {
+	background-color: #eee;
+	overflow: scroll;
+}
