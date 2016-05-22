@@ -8,13 +8,15 @@ function DogHunter() {
 	    .range([1, 0]);
 	function init() {
 		/* Create svg part */
-		var width = "150%";
-		var height = 9000;
-		var margin = {top:50, left:40, bottom:100, right:40};
+		var width = 1600;
+		var height = 1200;
 
 		var svg = d3.select("#svgParent").append("svg").attr("height", height).attr("width", width).attr("id","svg");
 		// .attr("viewBox","0 0 1400 500").attr("preserveAspectRatio","xMidYMid slice").attr("overflow","scroll");
 		svg.append("g").attr("id","viewport").attr("height", height).attr("width", width);
+		var svgParent = document.getElementById("svgParent");
+		svgParent.scrollTop = height/4;
+		svgParent.scrollLeft = 170;
 		/* Get data and setup score variables */
 		fetchAndSetupData();
 		// $('svg').svgPan('viewport');
@@ -23,8 +25,8 @@ function DogHunter() {
 	function fetchAndSetupData() {
 		// Read
 			var svg = d3.select('#viewport');
-			var youX = 550;
-			var youY = 300;
+			var youX = 800;
+			var youY = 600;
 			svg.append('circle')
 				.attr('r',radiusScale(20))
 				.attr('fill','black')
@@ -67,7 +69,7 @@ function DogHunter() {
 		// angle = (rank-intervals[i-1])/allowedCircles*6.3;
 		angle = (rank-intervals[i-1])/allowedCircles*360;
 		angle = angle * Math.PI / 180;
-		console.log(rank + " and "+angle);
+		// console.log(rank + " and "+angle);
 		if(rank<5) {
 			radius = 150;
 		} else if(rank<15) {
