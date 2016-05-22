@@ -56,6 +56,7 @@ function getDogScores(inputPurpose, income, numKids, houseSize) {
 		finalScore = getFinalScore(purposeScore, costScore, childFriendlyScore, sizeScore, popularityScore);
 
 		dogObject = {
+			breed: dogData[i]["breed"],
 			purposeScore: purposeScore,
 			costScore: costScore,
 			childFriendlyScore: childFriendlyScore,
@@ -134,4 +135,20 @@ function getSizeScore(houseSize, dogSize) {
 
 function getFinalScore(purposeScore, costScore, childFriendlyScore, sizeScore, popularityScore) {
 	return 3*purposeScore + 2*costScore + 2*childFriendlyScore + 2*sizeScore + 1*popularityScore;
+}
+
+function getDogs() {
+	var e = document.getElementById("purposedrop");
+	var purpose = e.options[e.selectedIndex].text;
+
+	e = document.getElementById("incomedrop");
+	var income = e.options[e.selectedIndex].text;
+
+	e = document.getElementById("housedrop");
+	var houseSize = e.options[e.selectedIndex].value;
+
+	e = document.getElementById("kidsdrop");
+	var numKids = e.options[e.selectedIndex].value;
+
+	getDogScores(purpose, income, numKids, houseSize);
 }
