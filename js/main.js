@@ -19,39 +19,40 @@ function DogHunter() {
 		svgParent.scrollLeft = 170;
 		/* Get data and setup score variables */
 		fetchAndSetupData();
-		// $('svg').svgPan('viewport');
+		// $("svg").svgPan("viewport");
 	}
 
 	function fetchAndSetupData() {
 		// Read
-			var svg = d3.select('#viewport');
+			var svg = d3.select("#viewport");
 			var youX = 800;
 			var youY = 600;
-			svg.append('circle')
-				.attr('r',radiusScale(20))
-				.attr('fill','black')
-				.attr('cx',youX)
-				.attr('cy',youY);
-			svg.append('text')
+			svg.append("circle")
+				.attr("r",radiusScale(20))
+				.attr("fill","black")
+				.attr("cx",youX)
+				.attr("cy",youY);
+
+			svg.append("text")
 				.text("You")
-				.attr('fill','white')
-				.attr('x',youX)
-				.attr('y',youY);
+				.attr("fill","white")
+				.attr("x",youX-12)
+				.attr("y",youY+3);
 
 			dagScore.forEach(function(d,i) {
 				var circleParams = getCircleParams(youX, youY, i);
-				svg.append('circle')
-				.attr('r',radiusScale(d.finalScore))
-				.attr('fill','maroon')
-				.style('opacity',circleParams.opacity)
-				.attr('cx',circleParams.x)
-				.attr('cy',circleParams.y);
+				svg.append("circle")
+				.attr("r",radiusScale(d.finalScore))
+				.attr("fill","maroon")
+				.style("opacity",circleParams.opacity)
+				.attr("cx",circleParams.x)
+				.attr("cy",circleParams.y);
 
-				svg.append('text')
+				svg.append("text")
 				.text(i)
-				.attr('fill','white')
-				.attr('x',circleParams.x)
-				.attr('y',circleParams.y);
+				.attr("fill","white")
+				.attr("x",circleParams.x)
+				.attr("y",circleParams.y);
 			});
 	}
 
